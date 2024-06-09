@@ -1,0 +1,18 @@
+2023-12-21 20:12:53 INFO  HomePage :35 - Clicking on login link :
+2023-12-21 20:12:776 INFO  LoginPage :73 - enter Email ID
+2023-12-21 21:12:972 INFO  HomePage :35 - Clicking on login link :
+2023-12-21 21:12:782 INFO  LoginPage :73 - enter Email ID
+2023-12-21 21:12:154 INFO  LoginPage :78 - enter Password
+2023-12-21 21:12:865 INFO  HomePage :35 - Clicking on login link :
+2023-12-21 21:12:572 INFO  LoginPage :73 - enter Email ID
+2023-12-21 21:12:878 INFO  LoginPage :84 - enter Password
+2023-12-21 21:12:820 INFO  HomePage :35 - Clicking on login link :
+2023-12-21 21:12:550 INFO  LoginPage :73 - enter Email ID
+2023-12-21 21:12:832 INFO  LoginPage :84 - enter Password
+2023-12-21 21:12:931 INFO  HomePage :35 - Clicking on login link :
+2023-12-21 21:12:90 INFO  LoginPage :73 - enter Email ID
+2023-12-21 21:12:229 ERROR LoginPage :77 - email field not found
+2024-06-09 09:06:893 INFO  HomePage :35 - Clicking on login link :
+2024-06-09 09:06:99 INFO  LoginPage :73 - enter Email ID
+2024-06-09 09:06:429 INFO  LoginPage :78 - enter Password
+2024-06-09 09:06:286 INFO  HomePage :41 - Clicking on register link :
