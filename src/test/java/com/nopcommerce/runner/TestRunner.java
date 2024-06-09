@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
         plugin = {"pretty",
                 "html:target/cucumber-report/cucumber.html",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
-                "json:target/RunCuke/cucumber.json"},
-        tags = {"@test"}
+                "json:target/RunCuke/cucumber.json"}
 )
+
 public class TestRunner {
 
     @AfterClass
@@ -29,6 +29,6 @@ public class TestRunner {
         Reporter.setSystemInfo("Machine", "Windows 10" + "64 Bit");
         Reporter.setSystemInfo("Selenium", "4.15");
         Reporter.setSystemInfo("Maven", "3.9");
-        Reporter.setSystemInfo("Java Version", "11");
+        Reporter.setSystemInfo("Java Version", "17");
     }
 }

@@ -21,12 +21,13 @@ public class RegisterSteps {
     @And("^I enters following users details$")
     public void iEntersFollowingUsersDetails(DataTable dataTable) throws InterruptedException {
 
-//        List<List<String>> row = dataTable.asLists(String.class);
-//        for( List<String> columns:row){
-//            new LoginPage().register(columns.get(0), columns.get(1), columns.get(2), columns.get(3), columns.get(4));
-//        }
+        //without header
+      /*  List<List<String>> row = dataTable.asLists(String.class);
+        for( List<String> columns:row){
+            new LoginPage().register(columns.get(0), columns.get(1), columns.get(2), columns.get(3), columns.get(4));
+        }*/
 
-
+        //with header
         List<Map<String, String>> rows = dataTable.asMaps(String.class, String.class);
 
         for (Map<String, String> columns : rows) {
@@ -34,4 +35,5 @@ public class RegisterSteps {
 
         }
     }
+
 }

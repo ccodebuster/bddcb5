@@ -42,11 +42,12 @@ public class LoginSteps {
 
     @And("^I enter password \"([^\"]*)\"$")
     public void iEnterPassword(String password)  {
-     loginPage.enterPassword(password);
+        loginPage.enterPassword(password);
     }
 
     @And("^I click on login button$")
     public void iClickOnLoginButton() {
+
         loginPage.clickOnLoginButton();
     }
 
@@ -60,4 +61,10 @@ public class LoginSteps {
      Assert.assertEquals("error Message", errorMsg, loginPage.getErrorMessage());
 
     }
+
+    @And("^I click on cookies$")
+    public void iClickOnCookies() {
+
+    }
+
 }

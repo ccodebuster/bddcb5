@@ -72,6 +72,7 @@ public class LoginPage extends Utility {
     public void enterEmailId(String email) {
         log.info("enter Email ID");
             sendTextToElement(emailField, email);
+
     }
 
     public void enterPassword(String password) {
@@ -80,6 +81,7 @@ public class LoginPage extends Utility {
     }
 
     public void clickOnLoginButton() {
+
         clickOnElement(loginButton);
     }
 
@@ -105,7 +107,7 @@ public class LoginPage extends Utility {
         Thread.sleep(2000);
         sendTextToElement(registerCPasswordField,cpass);
         Thread.sleep(2000);
-        clickOnElement(registerButton);
+        //clickOnElement(registerButton);
     }
 
 }

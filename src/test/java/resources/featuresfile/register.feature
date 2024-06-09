@@ -1,5 +1,5 @@
 Feature: Register
-  @test
+
   Scenario: User should create account successfully
     Given I am on homepage
     When I click on register link

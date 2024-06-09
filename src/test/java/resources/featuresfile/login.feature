@@ -7,8 +7,8 @@ Feature: login Test
   Scenario: user should navigate to login page successfully
     Then I should navigate to login page successfully
 
-    @smoke
-  Scenario: user should navigate to login page successfully with invalid credentials
+  @smoke
+  Scenario: user should navigate to login page successfully with valid credentials
     And I enter email "code1@gmail.com"
     And I enter password "122344"
     And I click on login button
